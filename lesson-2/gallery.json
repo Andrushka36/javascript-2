@@ -1,0 +1,15 @@
+[
+	{
+		"title": "Image 1",
+		"preview": "images/previews/1.jpg",
+		"full": "images/full/1.jpg"
+	}, {
+		"title": "Image 2",
+		"preview": "images/previews/2.jpg",
+		"full": "images/full/2.jpg"
+	}, {
+		"title": "Image 3",
+		"preview": "images/previews/3.jpg",
+		"full": "images/full/3.jpg"
+	}
+]
