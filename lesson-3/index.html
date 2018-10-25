@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Домашнее задание к 3-ему уроку</title>
+		<style>
+			.form {
+				display: flex;
+				width: 800px;
+				margin: 0 auto;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				font-family: Cambria;
+			}
+		
+			.form__field--input, .form__field--textarea {
+				margin-bottom: 30px;
+				position: relative;
+			}
+			
+			.form__field--input, .form__field--submit {
+				flex-basis: 30%;
+			}
+			
+			.form__field--textarea {
+				flex-basis: 100%;
+			}
+			
+			.form__field--submit {
+				margin: auto;
+			}			
+			
+			.form__input, .form__textarea, .form__submit {
+				display: block;
+				width: 100%;
+				background-color: #e5e5e5;
+				color: #8f8f8f;
+				border: 1px solid transparent;
+				border-radius: 5px;
+				padding: 10px 20px;
+				box-sizing: border-box;
+				font-size: 16px;
+				font-family: inherit;
+			}
+			
+			.form__textarea {
+				height: 120px;
+			}
+			
+			.form__input, .form__textarea {
+				margin-bottom: 30px;
+			}
+			
+			.form__submit {
+				cursor: pointer;
+			}
+			
+			.form__invalid-value {
+				border: 1px solid #f00;
+			}
+			
+			.form__error-message {
+				position: absolute;
+				font-size: 14px;
+				color: #f00;
+				left: 0;
+			}
+			
+			.form__field--input .form__error-message {
+				top: 50px;
+			}
+			
+			.form__field--textarea .form__error-message {
+				top: 129px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="form">
+			<div class="form__field form__field--input">
+				<input class="form__input" id="name" type="text" placeholder="Имя">
+			</div>
+			<div class="form__field form__field--input">
+				<input class="form__input" id="phone" type="text" placeholder="Телефон">
+			</div>
+			<div class="form__field form__field--input">
+				<input class="form__input" id="mail" type="text" placeholder="E-mail">
+			</div>
+			<div class="form__field form__field--textarea">
+				<textarea class="form__textarea" id="message" placeholder="Сообщение"></textarea>
+			</div>
+			<div class="form__field form__field--submit">
+				<input class="form__submit" type="submit" id="submit">
+			</div>
+		</div>		
+		<script src="scripts.js"></script>
+	</body>
+</html>
