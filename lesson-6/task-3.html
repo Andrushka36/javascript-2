@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Домашнее задание № 3 к 6-ому уроку</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="task3.js"></script>
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<style>
+			body {
+				font: 14px Cambria;
+			}
+			
+			#products {
+				width: 600px;
+				margin: 0 auto;
+				
+			}
+			
+			.product-item__title {
+				font-size: 18px;
+			}
+			
+			.carousel-viewport {
+				overflow: hidden;
+			}
+			
+			.carousel {
+				display: flex;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="products">
+			<div class="product-item">
+				<img src="carousel/1.jpg" alt="Творог обезжиренный">
+				<h2 class="product-item__title">Творог обезжиренный</h2>
+				<p class="product-item__price">Цена: 75 руб.</p>
+			</div>
+			<div class="product-item">
+				<img src="carousel/2.jpg" alt="Молоко 3,2% в бутылке">
+				<h2 class="product-item__title">Молоко 3,2% в бутылке</h2>
+				<p class="product-item__price">Цена: 55 руб.</p>
+			</div>
+			<div class="product-item">
+				<img src="carousel/3.jpg" alt="Филе грудки цыплёнка">
+				<h2 class="product-item__title">Филе грудки цыплёнка</h2>
+				<p class="product-item__price">Цена: 300 руб.</p>
+			</div>
+			<div class="product-item">
+				<img src="carousel/4.jpg" alt="Весенние овощи с/м">
+				<h2 class="product-item__title">Весенние овощи с/м</h2>
+				<p class="product-item__price">Цена: 60 руб.</p>
+			</div>
+		</div>
+	</body>
+</html>
