@@ -1,0 +1,31 @@
+[{
+	"name": "Имя",
+	"id": "name",
+	"tag": "input",
+	"pattern": "^[a-zA-Zа-яА-Я]+$",
+	"errorMessage": "Имя должно содержать только буквы"
+}, {
+	"name": "Телефон",
+	"id": "phone",
+	"tag": "input",
+	"pattern": "^\\+7\\(\\d{3}\\)\\d{3}-\\d{4}$",
+	"errorMessage": "Телефон должен быть вида +7(ххх)ххх-хххх"
+}, {
+	"name": "E-mail",
+	"id": "mail",
+	"tag": "input",
+	"pattern": "^[A-Za-z_.-]+@[a-z]+\\.[a-z]{2,3}$",
+	"errorMessage": "E-mail не корректен"
+}, {
+	"name": "Дата рождения",
+	"id": "date",
+	"tag": "input",
+	"pattern": "^\\d{2}\\/\\d{2}\\/\\d{4}$",
+	"errorMessage": "Дата рождения должна быть в формате ДД.ММ.ГГГГ"
+}, {
+	"name": "Сообщение",
+	"id": "message",
+	"tag": "textarea",
+	"pattern": "[^]",
+	"errorMessage": "Данное поле не может быть пустым"
+}]
